@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F21535B2A825CFC001E258E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4F354D4F2A82225400DC7A4F /* AutoBlue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoBlue; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F354D522A82225400DC7A4F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F354D5B2A82271000DC7A4F /* BluetoothControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothControl.swift; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		4F354D462A82225400DC7A4F = {
 			isa = PBXGroup;
 			children = (
+				4F21535B2A825CFC001E258E /* README.md */,
 				4F354D512A82225400DC7A4F /* AutoBlue */,
 				4F354D502A82225400DC7A4F /* Products */,
 			);
