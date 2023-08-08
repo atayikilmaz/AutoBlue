@@ -14,26 +14,44 @@ macOS doesn't natively provide an option to automatically disable Bluetooth when
 
 - **Battery Conservation:** Disabling Bluetooth during sleep helps conserve battery power by preventing connected devices from consuming energy unnecessarily.
 
-
 ## Installation and Usage
 
-1. **Clone or Download the Repository:** Clone this repository to your local machine or download the ZIP file and extract it.
+## Using Brew
 
-2. **Navigate to the Repository Folder:** Open Terminal and navigate to the folder where you've cloned or extracted the repository.
+1. **To tap:**
 
-3. **Configure the Script:** Open the `config.sh` file in a text editor. Customize the configuration parameters to your liking. You can specify options such as the sleep detection interval and whether to attempt Bluetooth reconnection upon wake.
-
-4. **Make the Script Executable:** In Terminal, navigate to the repository folder and run the following command to make the script executable:
    ```
-   chmod +x auto_bt_sleep.sh
+   brew tap atayikilmaz/tap
    ```
 
-5. **Run the Script:** Run the script with the following command:
+2. **To install:**
+
    ```
-   ./auto_bt_sleep.sh
+   brew install autoblue
    ```
 
-6. **Keep the Script Running:** You can keep the script running in the background to ensure Bluetooth is always managed during sleep. You might consider adding the script to your startup items so it runs automatically on system boot.
+3. **Run on login:**
+   ```
+   brew services start autoblue
+   ```
+
+## Stop autoblue Using Brew
+
+**To stop autoblue simply type:**
+
+```
+   brew services stop autoblue
+```
+
+**Keep in mind that in order to have 'autoblue' start automatically, you need ensure 'autoblue' is running.**
+
+## Uninstall Using Brew
+
+**To remove autoblue**
+
+```
+   brew remove autoblue
+```
 
 ## Contributions
 
